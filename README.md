@@ -3,7 +3,7 @@ Gas Online Booking System with user Registration page and Login page with valida
 
 1) Download the Given RAR file and extract it in a desired location.
 
-2) Download Xampp with Mysql.
+2) Download Xampp("https://www.apachefriends.org/download.html").
 
 3) In Xampp control panel start Mysql server and click on the Admin tab.
 
