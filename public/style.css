@@ -1,0 +1,164 @@
+nav{
+    background-color: #563d7c;
+    color: white;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;   
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav li a:hover{
+    border-radius:2px;
+    display: inline;
+    background-color: gainsboro;
+}
+.btn{
+    float: right;
+    background-color: green;
+}
+.btn:hover{
+    font-weight: bold;
+}
+.jumbotron{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.card-header{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    background-color: #563d7c;
+}
+.container.mt-5{
+    width: 40%;
+    border-radius: 4px;
+}
+body{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alert{
+    background-color: pink;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.w3-green{
+    padding: 20px 25px;
+    border-radius: 4px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.w4-yellow{
+    padding: 20px 25px;
+    border-radius: 4px;
+    background-color: rgb(150, 144, 238);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+
+}
+.w1-yellow{
+    padding: 20px 25px;
+    border-radius: 4px;
+    background-color: rgb(150, 144, 238);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    float: left;
+
+}
+.table{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    opacity: 75%;
+}
+.text{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.container.mt-2{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 6px;
+    padding-bottom: 1px;
+    border: 2px solid white;
+}
+.container.mt-4{
+    width: 50%;
+    opacity: initial;
+    border-radius: 4px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.href{
+    text-decoration: none;
+    color: olivedrab;
+}
+.selectid{
+    color: blue;
+    border-radius: 3px;
+    display: inline-block;
+}
+.button-pr a{
+    text-decoration: none;
+    float: left;
+    color: white;
+    background-color: green;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.but a{
+    text-decoration: none;
+    float: right;
+    color: white;
+    background-color: green;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.button-pr a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    color: white;
+    background-color: rgb(33, 33, 170);
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.but a:hover{
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.iframe{
+    float: right;
+}
